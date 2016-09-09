@@ -169,7 +169,7 @@ function getUpdates($last_id = null)
 }
 
 // matikan ini jika ingin bot berjalan
-// die('baca dengan teliti yak!');
+die('baca dengan teliti yak!');
 
 // ----------- pantengin mulai ini
 function sendMessage($idpesan, $idchat, $pesan)
