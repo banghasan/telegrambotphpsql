@@ -314,7 +314,6 @@ function printUpdates($result)
     return $last_id;
 }
 
-
 // AKTIFKAN INI jika menggunakan metode poll
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $last_id = null;
@@ -329,7 +328,6 @@ while (true) {
 
     sleep(1);
 }
-
 
 // AKTIFKAN INI jika menggunakan metode webhook
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -349,4 +347,4 @@ if (!$update) {
 
 Sekian.
 
-*/;
+*/
