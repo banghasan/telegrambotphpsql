@@ -8,7 +8,6 @@
 *
 */
 
-
 // masukkan database framework nya
 require_once 'medoo.php';
 
